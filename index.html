@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="activities">
+
+            <p> Routine in lifetime calculator ✨
+            </p>
+
+            <div id="lifespan-container">
+                <label for="lifespan">Lifespan:</label>
+                <input type="number" id="lifespan" value="70" min="1">
+            </div>
+ <!--      
+            <div class="input-group">
+                <div>
+                    <span>Activity Name:</span>
+                    <input type="text" placeholder="Reading..." class="activity-name">
+                </div>
+                <div class="hours-row">
+                    <span>Hours per day:</span>
+                    <input type="number" placeholder="Hours per day" class="activity-hours" min="0" max="24">
+                    <button class="remove-activity">X</button>
+                </div>
+            </div>
+-->            
+        
+            
+        </div>
+    <div class="buttons">
+        <button id="add-activity">Add activity</button>
+        <button id="generate-chart">Generate pie chart!</button>
+    </div>
+        <div id="chart-container">
+            <canvas id="lifeChart" width="300" height="300"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
