@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: font;
+    src: url(font.otf);
+  }
+
+body {
+    background-color: #ffffff;
+    font-family: font;
+    color: #272624;
+}
+
+.container {
+    margin: auto;
+    width: 700px;
+    height: auto;
+    background-color: #F4F4EF;
+    border: 3px solid #e9e9e083;
+    border-radius: 26px;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+input {
+    margin-left: 10px ;
+    height: 35px;
+    font-family: font;
+}
+
+
+
+.buttons {
+    text-align: center;
+    margin-top: 35px; 
+}
+
+.input-group {
+    margin-top: 15px;
+}
+
+#lifespan {
+    width: 50px;
+    border-radius: 13px;
+    border: 2px solid #DADAD4;
+    font-size: 1.4em;
+}
+.activity-name {
+    border-radius: 13px;
+    border: 2px solid #DADAD4;
+    font-size: 1.4em;
+    width: 200px;
+}
+
+.activity-hours {
+    width: 160px;
+    border-radius: 13px;
+    border: 2px solid #DADAD4;
+    font-size: 1.4em;
+}
+
+label, span {
+    font-size: 1.4em;
+}
+
+.remove-activity {
+    border-radius: 17px;
+    border: none;
+    background-color: #f55019;
+    height: 38px;
+    width: 40px;
+    font-size: 1.4em;
+    margin-left: 30px;
+}
+
+#add-activity, #generate-chart {
+    border-radius: 13px;
+    font-size: 1.3em;
+    height: 44px;
+    border: none;
+    color: #2e2824;
+    font-family: font;
+}
+
+#add-activity {
+    background-color: #C5F276;
+    width: 140px;
+    margin-right:10px ;
+}
+
+#generate-chart {
+    background-color: #e6d6ff;
+    width: 220px;
+    margin-left:10px ;
+}
+
+.input-group {
+    margin-top: 25px;
+}
+
+.hours-row {
+    margin-top: 10px;
+}
+
+p {
+
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 1.7em;
+    color: #16120F;
+}
+
+input::placeholder {
+    font-size: 19px;
+    color: #959496;
+}
